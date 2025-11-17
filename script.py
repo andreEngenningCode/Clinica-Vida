@@ -76,10 +76,6 @@ def ver_estatisticas():
 
 
 def buscar_paciente():
-    """
-    Função para buscar um paciente pelo nome.
-    A busca não diferencia maiúsculas/minúsculas.
-    """
     print("\n--- Buscar Paciente ---")
     if not pacientes:
         print("Nenhum paciente cadastrado ainda.")
@@ -145,4 +141,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
